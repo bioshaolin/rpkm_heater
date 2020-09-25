@@ -67,5 +67,5 @@ Source: https://github.com/bioshaolin/rpkm_heater
 
 ## WHAT TO EXCPECT IN v2 ##
 Version 2 will include:
-* a subcommand that combines rpkm_heater outputs for scaling grouped sample interpretations (POS vs. PON, EPI vs MES). This feature will be significant for users who are recruiting with uneven designated sample numbers (POS = 105, PON = 50).
+* a subcommand that combines rpkm_heater outputs for grouped interpretations. This feature will be significant for users who are recruiting with disproportional grouped sample numbers (POS = 105, PON = 50).
 * an option to specify which normalization method to call (log2, log10, none).
