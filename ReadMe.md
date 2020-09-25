@@ -4,7 +4,7 @@
 
 	git clone https://github.com/bioshaolin/rpkm_heater.git
 	
-	echo alias rpkm_heater="python3 <ADD-YOUR-PATH-TO-DIR-HERE>/rpkm_heater/rpkm_heater.py" >> .bashrc
+	echo 'alias rpkm_heater="python3 <ADD-YOUR-PATH-TO-DIR-HERE>/rpkm_heater/rpkm_heater.py"' >> .bashrc
 	
 	conda env create -f rpkm_heater_dep.yml -n rpkm_heater
 
