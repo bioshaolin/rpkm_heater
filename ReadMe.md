@@ -1,17 +1,18 @@
 # ***RPKM_HEATER*** #
 
-INSTALL AND SET UP
+### INSTALL AND SET UP ###
 
 git clone https://github.com/bioshaolin/rpkm_heater.git
 source ~/rpkm_heater_v1/rpkm_heater/setup/setup.sh
 
 NOTE: rpkm_heater is now callable via $rpkm_heater
 
-RECOMMENDED USAGE
+### RECOMMENDED USAGE ###
 
-<code> rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma <code>
+<code>	conda activate rpkm_heater
+	rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma <code>
 
-SPECIFYING SORTED LISTS
+### SPECIFYING SORTED LISTS ###
 
 The 2 input options for sorted lists allow for a myriad of approaches to assessing and analyzing your data.
 
