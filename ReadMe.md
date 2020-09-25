@@ -10,20 +10,28 @@
 
 NOTE: rpkm_heater is now callable via $rpkm_heater
 
+### HELP MENU ###
+	rpkm_heater -h
+
 ### RECOMMENDED USAGE ###
 	conda activate rpkm_heater
 	
 	rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma
 
-### SPECIFYING SORTED LISTS ###
+### SPECIFYING SORTED/COLOR LISTS ###
 
 *The 3 input options for sorted lists allow for a myriad of approaches to assessing and analyzing your data.*
 
-**-sort_samples** sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP).
+	-sort_samples
+Sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP).
 
-**-sort_gen** sorting genomes/genes by lineage allows the user to potentially identify ecotype clustering.
+	-sort_gen
+Sorting genomes/genes by lineage allows the user to potentially identify ecotype clustering. \
 	*NOTE: by including a sorted genome list the user is also capable of quickly identifying possible outliers. In the event the user has
 	identified outlier candidates the sorted list may be updated to exclude those genome(s) and rpkm will automatically un-map those recruitments.*
+	
+	-phylo_colors
+Providing a color list will highlight the lineage ids respective to your input
 
 ################################
 Development: E.W. Getz, 2020
