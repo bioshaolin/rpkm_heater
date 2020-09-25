@@ -2,8 +2,11 @@
 
 ### INSTALL AND SET UP ###
 
-git clone https://github.com/bioshaolin/rpkm_heater.git
-source ~/rpkm_heater_v1/rpkm_heater/setup/setup.sh
+	git clone https://github.com/bioshaolin/rpkm_heater.git
+	
+	echo alias rpkm_heater='python3 rpkm_heater/rpkm_heater.py' >> .bashrc
+	
+	conda env create -f rpkm_heater_dep.yml -n rpkm_heater
 
 NOTE: rpkm_heater is now callable via $rpkm_heater
 
