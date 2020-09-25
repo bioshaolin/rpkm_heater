@@ -45,7 +45,8 @@ Sorting genomes/genes by lineage allows the user to potentially identify ecotype
 	-phylo_colors <lineage_colors.txt>
 Providing a color list will highlight the lineage ids respective to your input.
 
-################################
+
+
 Development: E.W. Getz, 2020
 Version: v1.1
 Source: https://github.com/bioshaolin/rpkm_heater
