@@ -8,7 +8,7 @@ source ~/rpkm_heater_v1/rpkm_heater/setup/setup.sh
 NOTE: rpkm_heater is now callable via $rpkm_heater
 
 RECOMMENDED USAGE
-'''console
+'''bash
 rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma
 '''
 SPECIFYING SORTED LISTS
