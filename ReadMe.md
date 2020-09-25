@@ -64,3 +64,6 @@ Providing a color list will highlight the lineage ids respective to your input.
 Development: E.W. Getz, 2020 \
 Version: v1.1 \
 Source: https://github.com/bioshaolin/rpkm_heater
+
+## WHAT TO EXCPECT IN v2 ##
+Version 2 will include a subcommand that combines rpkm_heater outputs for scaling interpretations. The update will also include an option to specify which normalization method to call (log2, log10, none).
