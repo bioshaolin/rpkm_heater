@@ -42,7 +42,7 @@ RPKM =                 ---------------------
 epilog = textwrap.dedent('''\
 ################################
 Development: E.W. Getz, 2020
-Version: v1.0
+Version: v1.1
 Source: https://github.com/bioshaolin/rpkm_heater
 '''))
 subcommands = parser.add_argument_group('## sub-commands, NOTE: CHOOSE 1')
