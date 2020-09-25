@@ -6,6 +6,8 @@
 	
 	echo 'alias rpkm_heater="python3 <ADD-YOUR-PATH-TO-DIR-HERE>/rpkm_heater/rpkm_heater.py"' >> .bashrc
 	
+	cd rpkm_heater
+	
 	conda env create -f rpkm_heater_dep.yml -n rpkm_heater
 
 *NOTE: rpkm_heater is now callable via $rpkm_heater*
