@@ -9,9 +9,7 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 
 RECOMMENDED USAGE
 
-'''
-rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma
-'''
+<code> rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma <code>
 
 SPECIFYING SORTED LISTS
 
