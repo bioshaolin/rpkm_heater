@@ -20,10 +20,13 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 
 ### SPECIFYING SORTED/COLOR LISTS ###
 
-*The 3 input options for sorted lists allow for a myriad of approaches to assessing and analyzing your data.*
+*The 3 input options for sorted/color lists offer a myriad of approaches for assessing and analyzing your data.*
 
 	-sort_samples
-Sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP).
+Sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP). \
+*Format is tab-delimited list.* \
+	
+	-sort_format
 
 	-sort_gen
 Sorting genomes/genes by lineage allows the user to potentially identify ecotype clustering. \
@@ -31,7 +34,7 @@ Sorting genomes/genes by lineage allows the user to potentially identify ecotype
 	identified outlier candidates the sorted list may be updated to exclude those genome(s) and rpkm will automatically un-map those recruitments.*
 	
 	-phylo_colors
-Providing a color list will highlight the lineage ids respective to your input
+Providing a color list will highlight the lineage ids respective to your input.
 
 ################################
 Development: E.W. Getz, 2020
