@@ -23,16 +23,16 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 *The 3 input options for sorted/color lists offer a myriad of approaches for assessing and analyzing your data.*
 
 ### Metagenomes/Samples ###
+	-sort_format
 *Format is tab-delimited list.*
 	
-	-sort_format
 	-sort_samples
 Sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP). \
 
 ### Genomes/Genes ###
+	-sort_format
 *Format is tab-delimited list.*
 	
-	-sort_format
 	-sort_gen
 Sorting genomes/genes by lineage allows the user to potentially identify ecotype clustering. \
 	*NOTE: by including a sorted genome list the user is also capable of quickly identifying possible outliers. In the event the user has
