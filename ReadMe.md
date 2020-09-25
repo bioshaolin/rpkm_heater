@@ -43,7 +43,7 @@ Sorting genomes/genes by lineage allows the user to potentially identify ecotype
 *Format is 3 columns (Genome	Order	Color).*
 
 	-phylo_colors <lineage_colors.txt>
-Providing a color list will highlight the lineage ids respective to your input.
+Providing a color list will highlight the lineage ids respective to your input. \
 
 
 
