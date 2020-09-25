@@ -26,14 +26,14 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 	-sort_format
 *Format is tab-delimited list.*
 	
-	-sort_samples
+	-sort_samples <sorted_samples_list.txt>
 Sorting metagenomes by ocean depth or region allows the user to visualize abundance in a nearer-to-scale interpretation of ecotypes (SRF --> DEEP).
 
 ### Genomes/Genes ###
 	-sort_format
 *Format is tab-delimited list.*
 	
-	-sort_gen
+	-sort_gen <sorted_genome_list.txt>
 Sorting genomes/genes by lineage allows the user to potentially identify ecotype clustering. \
 	*NOTE: by including a sorted genome list the user is also capable of quickly identifying possible outliers. In the event the user has
 	identified outlier candidates the sorted list may be updated to exclude those genome(s) and rpkm will automatically un-map those recruitments.*
@@ -42,7 +42,7 @@ Sorting genomes/genes by lineage allows the user to potentially identify ecotype
 	-phy_col_format
 *Format is 3 columns (Genome	Order	Color).*
 
-	-phylo_colors
+	-phylo_colors <lineage_colors.txt>
 Providing a color list will highlight the lineage ids respective to your input.
 
 ################################
