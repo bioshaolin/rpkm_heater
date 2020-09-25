@@ -9,7 +9,7 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 
 RECOMMENDED USAGE
 
-rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma
+'rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma'
 
 SPECIFYING SORTED LISTS
 
@@ -22,5 +22,5 @@ i.e. sorting genomes by lineage allows the user to potentially identify ecotype 
 
 ################################
 Development: E.W. Getz, 2020
-Version: v1.0
+Version: v1.1
 Source: https://github.com/bioshaolin/rpkm_heater
