@@ -9,8 +9,8 @@ NOTE: rpkm_heater is now callable via $rpkm_heater
 
 ### RECOMMENDED USAGE ###
 
-<code>	conda activate rpkm_heater
-	rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma <code>
+<code>	conda activate rpkm_heater <code>
+<code>	rpkm_heater -map -i <input_directory> -o <output_directory> -project <project_prefix> -sort_samples <sort_samples_list> -sort_gen <sort_gen_list> -colors plasma <code>
 
 ### SPECIFYING SORTED LISTS ###
 
