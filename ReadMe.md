@@ -34,7 +34,7 @@ However, any workflow can be used so long as the final format includes the 4 col
 	
 ## SPECIFYING SORTED/COLOR LISTS ##
 
-*The 3 input options for sorted/color lists offer a myriad of approaches for assessing and analyzing your data.*
+*The 3 input options for sorted/color lists offer a myriad of approaches for interpreting your data.*
 
 ### Metagenomes/Samples ###
 	-sort_format
