@@ -70,4 +70,4 @@ Source: https://github.com/bioshaolin/rpkm_heater
 ## WHAT TO EXCPECT IN v2 ##
 Version 2 will include:
 * a subcommand that combines rpkm_heater outputs for grouped interpretations. This feature will be significant for users who are recruiting with disproportional grouped sample numbers (POS = 105, PON = 50).
-* an option to specify which normalization method to call (log2, log10, none).
+* an option to specify which transforation method to call (log2, log10, none).
